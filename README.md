@@ -1,6 +1,6 @@
 ### Change image V1
 
-The site allows you to rotate images 90 degrees to the right and left.
+The site allows you to rotate images 90 degrees to the right and left. Functionality will be updated further
 
 ![Example](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJidzNrbTdpeDJrcmtkOXNmdzlnM3Z6YjNhYXY5MTF5bmY3eWU2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xkE6a0hjSKbrVguGAw/giphy.gif)
 
