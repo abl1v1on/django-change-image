@@ -1,0 +1,12 @@
+*.pyc
+*~
+__pycache__
+db.sqlite3
+media/
+static/
+venv/
+*.log
+.local/
+celerybeat.pid
+celerybeat-schedule
+settings.py

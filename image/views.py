@@ -1,11 +1,9 @@
 from django.http import FileResponse, HttpResponse
 from django.shortcuts import render
 
-import uuid
-
-from PIL import Image
 from .forms import ImageForm
 from .servise import return_image
+
 
 def index(request):
     if request.method == "POST":

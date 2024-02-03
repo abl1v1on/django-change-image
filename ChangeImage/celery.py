@@ -13,14 +13,12 @@ app.config_from_object('django.conf:settings', namespace='CELERY')
 app.autodiscover_tasks()
 
 
-# Рассылка на почту каждые пять минут
-
-# app.conf.beat_schedule = {
-#     # Имя таска
-#     'send-spam-every-5-minute': {
-#         # Путь до нужной таски
-#         'task': 'image.tasks.send_beat_email',
-#         # Переодичность, с которой мы будет отправлять письма
-#         'schedule': crontab(minute='*/20')
-#     }
-# }
+app.conf.beat_schedule = {
+    # Имя таска
+    'clear-media-folder-every-5-minute': {
+        # Путь до нужной таски
+        'task': 'image.tasks.clear_media_folder',
+        # Переодичность
+        'schedule': crontab(minute='*/5')
+    }
+}
