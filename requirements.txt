@@ -3,7 +3,7 @@ asgiref==3.7.2
 async-timeout==4.0.3
 billiard==3.6.4.0
 celery==4.4.7
-Django==5.0.1
+Django==5.0.2
 flower==0.9.7
 humanize==4.9.0
 kombu==4.6.11
