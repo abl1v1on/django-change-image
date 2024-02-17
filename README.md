@@ -1,8 +1,3 @@
-### Change image V1
-
-![Example](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmJidzNrbTdpeDJrcmtkOXNmdzlnM3Z6YjNhYXY5MTF5bmY3eWU2dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xkE6a0hjSKbrVguGAw/giphy.gif)
-
-
 ## Run Redis
 
 `settings.py`
@@ -91,11 +86,3 @@ celery -A ChangeImage beat -l info
 ~~~
 flower -A ChangeImage --port=5555
 ~~~
-
-<br>
-
-<br>
-
-<p align="center">
-    <img width="400" height="250" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGNkNTRsYW5pY2RrbW1zczIxMjg4czQ5eTJlOWMyczNuNGI1dzV4NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cMnt7i2RykmpW/giphy.gif">
-</p>
